@@ -1,0 +1,32 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.bak
+*.autosave
+
+# Simulink autosave files
+*.slx.autosave
+*.mdl.autosave
+
+# Simulink cache and generated code
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+codegen/
+
+# MATLAB temporary and log files
+*.log
+*.tmp
+*.mex*
+
+# Large simulation result folders
+results/
+simulation_outputs/
+
+# Figure source files not required for assessment
+*.fig
+
+# Operating system files
+.DS_Store
+Thumbs.db
